@@ -1,0 +1,5 @@
+<h1>booleanValue Directive</h1>
+<form [formGroup]="form">
+  <input type="checkbox" formControlName="likingPizza" booleanValue trueValue="yes" falseValue="nooo"> do you like pizza?
+</form>
+<pre>{{form.value | json }}</pre>
